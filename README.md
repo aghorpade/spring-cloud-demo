@@ -13,8 +13,7 @@ This repository will hold spring cloud related code and demo examples
 Run- to run this application type mvn spring-boot:run
 open Browser with http://localhost:9090/  - it will give response as Hello World from user service
 
-
-#User Client 
+# User Client 
   another spring boot application which will use discoveryClient to get User service instance URL and then specific URL.
   Run- to run this application type mvn spring-boot:run
   If you hit http://localhost:8085/ it will print no of user service appllication instances running. and when you hit http://localhost:8085/hello then it will call user service first instance and return back response from user service along with user client response.
